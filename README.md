@@ -1,4 +1,4 @@
-<img src="assets/header.svg" width="100%" alt="Aryan Shah — AI engineer, founder of SORAEN, India. Build intelligence. Engineer the future. Make AI safer." />
+<img src="assets/header.svg" width="100%" alt="Aryan Shah — AI engineer, founder of SORAEN. Build intelligence. Engineer the future. Make AI safer." />
 
 <p align="center">
   <a href="https://www.linkedin.com/in/aryan-shah-864860419/"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
