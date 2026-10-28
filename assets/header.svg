@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Aryan Shah — Founder of SORAEN">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070f"/>
+      <stop offset="0.55" stop-color="#110f2e"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.35" r="0.5">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c7d2fe"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#818cf8" stroke-opacity="0.07"/>
+    </pattern>
+    <style>
+      text { font-family: 'Segoe UI', Inter, -apple-system, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace; }
+      .pulse { animation: pulse 6s ease-in-out infinite; transform-origin: 940px 120px; }
+      .rise { opacity: 0; animation: rise 1s ease-out forwards; }
+      .d1 { animation-delay: .15s } .d2 { animation-delay: .45s } .d3 { animation-delay: .8s }
+      .chip { opacity: 0; animation: chip 9s ease-in-out infinite; }
+      .c2 { animation-delay: 3s } .c3 { animation-delay: 6s }
+      .node { animation: blink 3s ease-in-out infinite; }
+      .n2 { animation-delay: .6s } .n3 { animation-delay: 1.2s } .n4 { animation-delay: 1.8s } .n5 { animation-delay: 2.4s }
+      .flow { stroke-dasharray: 6 8; animation: dash 2.5s linear infinite; }
+      .caret { animation: caret 1s steps(1) infinite; }
+      @keyframes pulse { 0%,100% { opacity: .7; transform: scale(1) } 50% { opacity: 1; transform: scale(1.08) } }
+      @keyframes rise { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: none } }
+      @keyframes chip { 0%,4% { opacity: 0; transform: translateY(8px) } 10%,30% { opacity: 1; transform: none } 36%,100% { opacity: 0; transform: translateY(-6px) } }
+      @keyframes blink { 0%,100% { opacity: .35 } 50% { opacity: 1 } }
+      @keyframes dash { to { stroke-dashoffset: -28 } }
+      @keyframes caret { 50% { opacity: 0 } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#glow)" class="pulse"/>
+
+  <!-- left: identity -->
+  <g class="rise d1">
+    <text x="70" y="96" class="mono" font-size="15" fill="#818cf8" letter-spacing="3">FOUNDER · SORAEN</text>
+  </g>
+  <g class="rise d2">
+    <text x="66" y="168" font-size="68" font-weight="700" fill="url(#name)" letter-spacing="-1.5">Aryan Shah</text>
+  </g>
+  <g class="rise d3">
+    <text x="70" y="214" font-size="21" fill="#c7d2fe">Building language models that cite their sources</text>
+    <text x="70" y="244" font-size="21" fill="#c7d2fe">and say <tspan fill="#ffffff" font-style="italic">"I don't know"</tspan> instead of guessing.<tspan class="caret" fill="#818cf8"> ▍</tspan></text>
+  </g>
+
+  <!-- right: evidence graph -->
+  <g stroke="#818cf8" stroke-width="1.5" fill="none" opacity="0.6">
+    <path class="flow" d="M860 90 L940 120 L1030 80"/>
+    <path class="flow" d="M940 120 L900 200 L1010 215"/>
+    <path class="flow" d="M940 120 L1010 215 L1090 160"/>
+    <path class="flow" d="M1030 80 L1090 160"/>
+  </g>
+  <g fill="#a5b4fc">
+    <circle class="node" cx="860" cy="90" r="5"/>
+    <circle class="node n2" cx="1030" cy="80" r="5"/>
+    <circle class="node n3" cx="900" cy="200" r="5"/>
+    <circle class="node n4" cx="1010" cy="215" r="5"/>
+    <circle class="node n5" cx="1090" cy="160" r="5"/>
+  </g>
+  <circle cx="940" cy="120" r="9" fill="#6366f1" stroke="#c7d2fe" stroke-width="2"/>
+
+  <!-- rotating citation chips -->
+  <g class="mono" font-size="13">
+    <g class="chip">
+      <rect x="800" y="250" width="250" height="34" rx="17" fill="#1e1b4b" stroke="#4f46e5"/>
+      <text x="820" y="272" fill="#c7d2fe"><tspan fill="#818cf8">[1]</tspan> annual-report.pdf · p.4</text>
+    </g>
+    <g class="chip c2">
+      <rect x="800" y="250" width="250" height="34" rx="17" fill="#1e1b4b" stroke="#4f46e5"/>
+      <text x="820" y="272" fill="#c7d2fe"><tspan fill="#818cf8">[2]</tspan> policy-handbook.md · §3</text>
+    </g>
+    <g class="chip c3">
+      <rect x="800" y="250" width="250" height="34" rx="17" fill="#1e1b4b" stroke="#a78bfa"/>
+      <text x="820" y="272" fill="#ddd6fe"><tspan fill="#a78bfa">∅</tspan> not in the documents</text>
+    </g>
+  </g>
+</svg>
