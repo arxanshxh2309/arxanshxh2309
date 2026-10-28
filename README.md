@@ -162,7 +162,7 @@ always   ▸ Physics · Chemistry · Maths for JEE 2028
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arxanshxh2309/arxanshxh2309/output/snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/arxanshxh2309/arxanshxh2309/output/snake-light.svg" width="100%" alt="Contribution graph being eaten by a snake" />
+    <img src="https://raw.githubusercontent.com/arxanshxh2309/arxanshxh2309/output/snake-light.svg" width="100%" alt="" />
   </picture>
 </p>
 
