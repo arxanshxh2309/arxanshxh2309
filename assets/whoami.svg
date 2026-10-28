@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="430" viewBox="0 0 880 430" role="img" aria-label="Terminal: whoami — Aryan Shah. Role: AI engineer and founder of SORAEN. Education: Class 11, PCM, preparing for JEE 2028. Focus: LLMs, AI agents, AI safety and security. Offline: electric guitar, rock and strength training. Languages: English, Hindi. Inspiration: JARVIS.">
+  <defs>
+    <style>
+      text { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace; font-size: 15px; }
+      .p { fill: #818cf8 } .k { fill: #7dd3fc } .v { fill: #e6edf3 } .c { fill: #6e7681 } .s { fill: #a5d6a7 }
+      /* one 18s loop; each line appears at its own moment, everything clears at the end */
+      .l { opacity: 0; animation-duration: 18s; animation-iteration-count: infinite; animation-timing-function: steps(1, end); }
+      .l1 { animation-name: l1 } .l2 { animation-name: l2 } .l3 { animation-name: l3 } .l4 { animation-name: l4 }
+      .l5 { animation-name: l5 } .l6 { animation-name: l6 } .l7 { animation-name: l7 } .l8 { animation-name: l8 }
+      .l9 { animation-name: l9 } .l10 { animation-name: l10 } .l11 { animation-name: l11 } .l12 { animation-name: l12 }
+      @keyframes l1  { 0%,2%  { opacity: 0 } 3%,94%  { opacity: 1 } 95%,100% { opacity: 0 } }
+      @keyframes l2  { 0%,8%  { opacity: 0 } 9%,94%  { opacity: 1 } 95%,100% { opacity: 0 } }
+      @keyframes l3  { 0%,14% { opacity: 0 } 15%,94% { opacity: 1 } 95%,100% { opacity: 0 } }
+      @keyframes l4  { 0%,19% { opacity: 0 } 20%,94% { opacity: 1 } 95%,100% { opacity: 0 } }
+      @keyframes l5  { 0%,23% { opacity: 0 } 24%,94% { opacity: 1 } 95%,100% { opacity: 0 } }
+      @keyframes l6  { 0%,27% { opacity: 0 } 28%,94% { opacity: 1 } 95%,100% { opacity: 0 } }
+      @keyframes l7  { 0%,31% { opacity: 0 } 32%,94% { opacity: 1 } 95%,100% { opacity: 0 } }
+      @keyframes l8  { 0%,35% { opacity: 0 } 36%,94% { opacity: 1 } 95%,100% { opacity: 0 } }
+      @keyframes l9  { 0%,39% { opacity: 0 } 40%,94% { opacity: 1 } 95%,100% { opacity: 0 } }
+      @keyframes l10 { 0%,43% { opacity: 0 } 44%,94% { opacity: 1 } 95%,100% { opacity: 0 } }
+      @keyframes l11 { 0%,52% { opacity: 0 } 53%,94% { opacity: 1 } 95%,100% { opacity: 0 } }
+      @keyframes l12 { 0%,58% { opacity: 0 } 59%,94% { opacity: 1 } 95%,100% { opacity: 0 } }
+      .caret { animation: caret 1s steps(1) infinite; }
+      @keyframes caret { 50% { opacity: 0 } }
+    </style>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="879" height="429" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <path d="M0.5 46 H879.5" stroke="#30363d"/>
+  <circle cx="24" cy="23" r="6" fill="#ff5f57"/><circle cx="44" cy="23" r="6" fill="#febc2e"/><circle cx="64" cy="23" r="6" fill="#28c840"/>
+  <text x="440" y="28" text-anchor="middle" style="font-size:13px" class="c">aryan@soraen: ~</text>
+
+  <text x="28" y="84"  class="l l1"><tspan class="p">❯</tspan> <tspan class="v">whoami</tspan></text>
+  <text x="28" y="110" class="l l2 v" font-weight="700">Aryan Shah</text>
+
+  <text x="28" y="146" class="l l3"><tspan class="p">❯</tspan> <tspan class="v">cat about.yaml</tspan></text>
+  <text x="28" y="174" class="l l4"><tspan class="k">role:       </tspan><tspan class="s">AI engineer · founder @ SORAEN</tspan></text>
+  <text x="28" y="198" class="l l5"><tspan class="k">education:  </tspan><tspan class="s">Class 11 · PCM · JEE 2028</tspan></text>
+  <text x="28" y="222" class="l l6"><tspan class="k">focus:      </tspan><tspan class="s">[LLMs, AI agents, AI safety &amp; security]</tspan></text>
+  <text x="28" y="246" class="l l7"><tspan class="k">building:   </tspan><tspan class="s">useful, customisable AI systems</tspan></text>
+  <text x="28" y="270" class="l l8"><tspan class="k">offline:    </tspan><tspan class="s">[electric guitar 🎸, rock, strength training]</tspan></text>
+  <text x="28" y="294" class="l l9"><tspan class="k">languages:  </tspan><tspan class="s">[English, Hindi]</tspan></text>
+  <text x="28" y="318" class="l l10"><tspan class="k">inspired_by:</tspan><tspan class="s"> JARVIS</tspan> <tspan class="c"># someday.</tspan></text>
+
+  <text x="28" y="356" class="l l11"><tspan class="p">❯</tspan> <tspan class="v">echo $MOTTO</tspan></text>
+  <text x="28" y="382" class="l l12" fill="#c7d2fe" font-style="italic">Build intelligence. Engineer the future. Make AI safer.</text>
+
+  <text x="28" y="414" class="p">❯ <tspan class="caret">▍</tspan></text>
+</svg>
